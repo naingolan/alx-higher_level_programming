@@ -1,10 +1,13 @@
 #!/usr/bin/python3
-"""Defines a base geometry class BaseGeometry."""
+"""
+This module contains one class: BaseGeometry
+"""
 
 
 class BaseGeometry:
-    """Represent base geometry."""
-
+    """ contains one public instance method """
     def area(self):
-        """Not implemented."""
+        """
+        raises an Exception with the message area() is not implemented
+        """
         raise Exception("area() is not implemented")
